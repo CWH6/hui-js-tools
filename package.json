@@ -1,23 +1,22 @@
 {
     "name": "hui-js-tools",
-    "version": "1.0.2",
+    "version": "1.0.5",
     "description": "A collection of JavaScript and TypeScript utilities for logging, date manipulation, and more.",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "https://gitee.com/CWH6/hui-js-tools.git"
+        "type": "git",
+        "url": "https://gitee.com/CWH6/hui-js-tools.git"
     },
     "exports": {
-      "./Logger": "./Logger/index.js",
-      "./Date": "./Date/index.js"
+        "./Logger": "./Logger/index.js",
+        "./Date": "./Date/index.js"
     },
     "keywords": [
-      "utilities"
+        "utilities"
     ],
     "author": "cwh6",
     "license": "MIT"
-  }
-  
+}
