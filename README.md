@@ -1,6 +1,21 @@
-# hui-js-tools 
+# <p align="center" style="font-size:50px"> hui-js-tools </p>
 
-[![NPM version](https://img.shields.io/npm/v/is-glob.svg?style=flat)](https://www.npmjs.com/package/is-glob) [![NPM monthly downloads](https://img.shields.io/npm/dm/is-glob.svg?style=flat)](https://npmjs.org/package/is-glob) [![NPM total downloads](https://img.shields.io/npm/dt/is-glob.svg?style=flat)](https://npmjs.org/package/is-glob) 
+
+<p align="center">
+<a target="_blank" href="">
+	<img src="https://img.shields.io/npm/v/is-glob.svg?style=flat" />
+</a>
+<a target="_blank" href="">
+	<img src="https://img.shields.io/badge/new_idea-is_cool-green" />
+</a>
+<a target="_blank" href="">
+	<img src="https://img.shields.io/badge/%20_build-%20_pass-pink" />
+</a>
+<a target="_blank" href="">
+	<img src="https://img.shields.io/badge/%20_license-%20_MIT-yellow" />
+</a>
+</p>
+
 
 ## 介绍
 > **hui-js-tools** 是一个多功能的 JavaScript 和 TypeScript 工具库，旨在提供各种常用工具函数和模块，帮助开发者处理日志、日期以及其他常见操作。
@@ -14,19 +29,22 @@ hui-js-tools/
 ├── Date/
 │   ├── index.js
 │   └── index.ts
+├── docs/
+│   └── ......
 └── package.json
 └── README.md 
-└── pushAndPublish.bat(自定化发布脚本)
-
+└── pushAndPublish.bat(自动化发布脚本)
 ```
 
 ## 安装
 
 ```sh
- npm install hui-js-tool
+npm install hui-js-tool
 ```
 
 ## 使用
+
+> 更多信息请查看 [详情文档](http://cwh6.gitee.io/hui-js-tools/#/)
 
 ### Logger
 >彩色日志打印，级别如下：info、primary、 warn、 error  
@@ -34,12 +52,24 @@ hui-js-tools/
 ```sh
 import Logger from 'hui-js-tools/Logger';
 
-Logger.prettyInfo("title","content");
-Logger.prettyPrimary("title","contentA","contentB");
-Logger.prettyWarn("title","contentA","contentB");
-Logger.prettyError("title","contentA","contentB");
+Logger.info("title","content");
+Logger.primary("title","contentA","contentB");
+Logger.warn("title","contentA","contentB");
+Logger.error("title","contentA","contentB");
 ```
 
+
+## 发布版本
+
+升级版本
+```sh
+npm version patch
+```
+
+发布
+```sh
+npm publish
+```
 
 ### Author
 
