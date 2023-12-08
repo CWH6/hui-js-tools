@@ -6,39 +6,28 @@ const Logger = () => {
   // Add implementation later
 }
 
+// 定义日志级别颜色
+const typeColors = {
+    'primary': '#2d8cf0',
+    'success': '#19be6b',
+    'info': '#909399',
+    'warn': '#ff9900',
+    'error': '#f03f14',
+    'default': '#35495E'
+};
+
 Logger.typeColor = function (type: string) {
-    let color = ''
-    switch (type) {
-        case 'primary':
-            color = '#2d8cf0'
-            break
-        case 'success':
-            color = '#19be6b'
-            break
-        case 'info':
-            color = '#909399'
-            break
-        case 'warn':
-            color = '#ff9900'
-            break
-        case 'error':
-            color = '#f03f14'
-            break
-        default:
-            color = '#35495E'
-            break
-    }
-    return color
+    return typeColors[type] || typeColors['default'];
 }
 
 Logger.print = function (type = 'default', text: any, back = false) {
     if (typeof text === 'object') {
-        // 如果是對象則調用打印對象方式
+        // 判断数据
         isArray(text) ? console.table(text) : console.dir(text)
         return
     }
     if (back) {
-        // 如果是打印帶背景圖的
+        // 带背景打印
         console.log(
             `%c ${text} `,
             `background:${Logger.typeColor(type)}; padding: 2px; border-radius: 4px; color: #fff;`
@@ -79,23 +68,23 @@ Logger.pretty = function (type = 'primary', title:string, text:any) {
     )
 }
 
-Logger.prettyPrimary = function (title:string, ...text:any) {
+Logger.primary = function (title:string, ...text:any) {
     text.forEach((t:any) => this.pretty('primary', title, t))
 }
 
-Logger.prettySuccess = function (title:string, ...text:any) {
+Logger.success = function (title:string, ...text:any) {
     text.forEach((t:any) => this.pretty('success', title, t))
 }
 
-Logger.prettyWarn = function (title:string, ...text:any) {
+Logger.warn = function (title:string, ...text:any) {
     text.forEach((t:any) => this.pretty('warn', title, t))
 }
 
-Logger.prettyError = function (title:string, ...text:any) {
+Logger.error = function (title:string, ...text:any) {
     text.forEach((t:any) => this.pretty('error', title, t))
 }
 
-Logger.prettyInfo = function (title:string, ...text:any) {
+Logger.info = function (title:string, ...text:any) {
     text.forEach((t:any) => this.pretty('info', title, t))
 }
 

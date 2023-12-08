@@ -5,6 +5,20 @@
 ## 介绍
 > **hui-js-tools** 是一个多功能的 JavaScript 和 TypeScript 工具库，旨在提供各种常用工具函数和模块，帮助开发者处理日志、日期以及其他常见操作。
 
+## 结构
+```sh
+hui-js-tools/
+├── Logger/
+│   ├── index.js
+│   └── index.ts
+├── Date/
+│   ├── index.js
+│   └── index.ts
+└── package.json
+└── README.md 
+└── pushAndPublish.bat(自定化发布脚本)
+
+```
 
 ## 安装
 
