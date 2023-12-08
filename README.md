@@ -14,6 +14,9 @@
 <a target="_blank" href="">
 	<img src="https://img.shields.io/badge/%20_license-%20_MIT-yellow" />
 </a>
+<a target="_blank" href="">
+	<img src="https://img.shields.io/badge/%20_typescript-%20_type-8A2BE2" />
+</a>
 </p>
 
 
