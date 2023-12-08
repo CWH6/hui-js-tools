@@ -3,7 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/is-glob.svg?style=flat)](https://www.npmjs.com/package/is-glob) [![NPM monthly downloads](https://img.shields.io/npm/dm/is-glob.svg?style=flat)](https://npmjs.org/package/is-glob) [![NPM total downloads](https://img.shields.io/npm/dt/is-glob.svg?style=flat)](https://npmjs.org/package/is-glob) 
 
 ## 介绍
-> **hui-js-tools** 是一个多功能的 JavaScript 和 TypeScript 工具库，旨在提供各种常用工具函数和模块，帮助开发者处理日志、日期以及其他常见操作。}
+> **hui-js-tools** 是一个多功能的 JavaScript 和 TypeScript 工具库，旨在提供各种常用工具函数和模块，帮助开发者处理日志、日期以及其他常见操作。
 
 
 ## 安装
