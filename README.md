@@ -27,10 +27,8 @@
 ```sh
 hui-js-tools/
 ├── Logger/
-│   ├── index.js
 │   └── index.ts
 ├── Date/
-│   ├── index.js
 │   └── index.ts
 ├── docs/
 │   └── ......
