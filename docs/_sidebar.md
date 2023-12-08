@@ -1,5 +1,5 @@
 * 简介
-    * [easyio库概况](md/easyio_lib.md)
+    * [hui-js-tool概况](md/easyio_lib.md)
     * [配套开发板概况](md/esp32_iot_kit.md)
 * Demo&API
     * [01_blink](md/01_blink.md)
