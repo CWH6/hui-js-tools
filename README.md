@@ -1,8 +1,6 @@
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![](docs/image/titile_img.png)
-
+<p align="center">
+<img src="https://cwh6-bucket.oss-cn-shanghai.aliyuncs.com/bk/titile_img.png"/>
+</p>
 <p align="center">
 <a target="_blank" href="">
 	<img src="https://img.shields.io/npm/v/is-glob.svg?style=flat" />
