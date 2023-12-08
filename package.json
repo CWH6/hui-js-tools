@@ -1,6 +1,6 @@
 {
     "name": "hui-js-tools",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "A collection of JavaScript and TypeScript utilities for logging, date manipulation, and more.",
     "main": "index.js",
     "scripts": {
