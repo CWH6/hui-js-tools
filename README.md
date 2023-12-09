@@ -23,11 +23,12 @@
 ## 介绍
 > **hui-js-tools** 是一个多功能的 JavaScript 和 TypeScript 工具库，旨在提供各种常用工具函数和模块，帮助开发者处理日志、日期以及其他常见操作。
 
-## 结构
+## 结构 
 ```sh
 hui-js-tools/
 ├── Logger/
 │   └── index.ts
+│   └── DateUtils.test.ts(调试)
 ├── Date/
 │   └── index.ts
 ├── docs/
@@ -59,6 +60,13 @@ Logger.warn("title","contentA","contentB");
 Logger.error("title","contentA","contentB");
 ```
 
+## 模块调试
+
+进入对应模块文件, 执行 `xxx.test.ts` 文件</br>
+eg：进入 `Date` 模块 , 执行 `DateUtils.test.ts` 文件
+```sh
+npx jest DateUtils.test.ts
+```
 
 ## 发布版本
 
